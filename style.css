@@ -15,4 +15,25 @@ font-family: 'Roboto', sans-serif;
 }
 a{
     text-decoration:none;
+    color:black;
+}
+.sadi{
+    width:300px;
+    background:red;
+    height:300px;
+    margin-left:10px;
+    display: inline-block;
+
+}
+@media(max-width:500px){
+    .sadi{
+        background:black;
+    }
+    
+}
+@media(min-width:620px) and (max-width:650px)
+{
+    .sadi{
+        background:blue;
+    }
 }
