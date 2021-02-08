@@ -1,0 +1,18 @@
+/*
+    defult :  font-family:popin !!!
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+a{
+    text-decoration:none;
+}
