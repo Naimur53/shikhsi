@@ -18,22 +18,32 @@ a{
     color:black;
 }
 .sadi{
-    width:300px;
+    width:100%;
     background:red;
     height:300px;
-    margin-left:10px;
-    display: inline-block;
+    margin-right:3.33%;
+    margin-top:10px;
+    float:left;
 
 }
-@media(max-width:500px){
+@media(min-width:400px) and (max-width:719px)
+{
     .sadi{
         background:black;
+        width:100%;
     }
     
 }
-@media(min-width:620px) and (max-width:650px)
+@media(min-width:720px) 
 {
     .sadi{
         background:blue;
+        width:30%;
+    }
+}
+@media(min-width:1025px) {
+    .sadi{
+        background:yellow;
+        width:30%;
     }
 }
