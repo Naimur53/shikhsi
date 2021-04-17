@@ -75,15 +75,18 @@ body{
 }
 .grid-item {
     float: left;
-    width: 32.33%;
+    width: 32.3333%;
     height: auto;
     position:relative;
     
 }
 .grid-sizer{
-    width:16.6666%;
+    width:32.3333%;
 }
 
 .grid-item--width2{
-    width: 33.33333%; 
+    width: 32.33333%; 
+}
+#zoom_05{
+    width: 500px;
 }
