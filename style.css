@@ -47,3 +47,43 @@ a{
         width:30%;
     }
 }
+ .img-fluid{
+     width:100%;
+ }
+ /* width */
+::-webkit-scrollbar {
+  width: 5px; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(189, 189, 189, 0.4);
+  border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body{
+    background:black;
+}
+.grid-item {
+    float: left;
+    width: 32.33%;
+    height: auto;
+    position:relative;
+    
+}
+.grid-sizer{
+    width:16.6666%;
+}
+
+.grid-item--width2{
+    width: 33.33333%; 
+}
