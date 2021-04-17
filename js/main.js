@@ -11,6 +11,9 @@ $(document).ready(function(){
         zoomType:"inner",
         cursor: "crosshair"
       });
+      $(document).ready(function() {
+        $('select').niceSelect();
+      });
 
 
 

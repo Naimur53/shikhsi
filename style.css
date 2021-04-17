@@ -90,3 +90,7 @@ body{
 #zoom_05{
     width: 500px;
 }
+p::selection{ 
+    color:red;
+    
+}
