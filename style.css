@@ -101,3 +101,13 @@ p::selection{
     background: #000;
     color:#fff;
 }
+body {
+    /* Set "my-sec-counter" to 0 */
+    counter-reset: added;
+  }
+  
+  p::before {
+    /* Increment "my-sec-counter" by 1 */
+    counter-increment: added; 
+    content: "" counter(added) " ";
+  } 
