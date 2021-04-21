@@ -71,8 +71,7 @@ a{
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(199, 13, 13);
 }
-body{
-    background:black;
+body{ 
 }
 .grid-item {
     float: left;
@@ -98,3 +97,7 @@ p::selection{
 .pt-5{
     height:5000px;
 } 
+.div ul li:nth-child(2n){
+    background: #000;
+    color:#fff;
+}
