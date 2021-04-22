@@ -108,6 +108,30 @@ body {
   
   p::before {
     /* Increment "my-sec-counter" by 1 */
-    counter-increment: added; 
-    content: "" counter(added) " ";
+  
   } 
+  .position{
+      background: cyan;
+  }
+  .position div{
+      width:100px;
+      height:100px;
+
+    
+  }
+  .red{
+      background: red;
+  }
+  .blue{
+      background: blue;
+  }
+  .black{
+      background: black;
+  }
+  table{
+       
+  }
+  td{
+      border:1px solid red;
+      font-size: 34px;
+  }
