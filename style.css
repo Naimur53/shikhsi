@@ -70,9 +70,7 @@ a{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(199, 13, 13);
-}
-body{ 
-}
+} 
 .grid-item {
     float: left;
     width: 32.3333%;
@@ -106,10 +104,6 @@ body {
     counter-reset: added;
   }
   
-  p::before {
-    /* Increment "my-sec-counter" by 1 */
-  
-  } 
   .position{
       background: cyan;
   }
@@ -127,10 +121,7 @@ body {
   }
   .black{
       background: black;
-  }
-  table{
-       
-  }
+  } 
   td{
       border:1px solid red;
       font-size: 34px;
