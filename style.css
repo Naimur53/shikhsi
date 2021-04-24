@@ -52,7 +52,7 @@ a{
  }
  /* width */
 ::-webkit-scrollbar {
-  width: 50px;  
+  width: 15px;  
   position:absolute;
   
 } 
@@ -130,3 +130,15 @@ body {
       border:1px solid red;
       font-size: 34px;
   }
+.over{
+    width: 200px;
+    height: 100px;
+    border:1px solid red;
+    overflow-y: scroll;
+  
+}
+.over2{
+    width: 200px;
+    height: 100px;
+    border:1px solid blue;
+}
